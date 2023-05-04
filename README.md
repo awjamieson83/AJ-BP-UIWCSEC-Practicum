@@ -1,5 +1,5 @@
 # AJ-BP-UIWCSEC-Practicum
-Final CSEC Practicum for UIW by Anthony Jamieson and Bryanna Parkoff.
+Final CSEC Practicum for the University of the Incarnate Word by Anthony Jamieson and Bryanna Parkoff. Produced under the guidance of professor Gonzalo D. Parra.
 # Summary
 This project intends to cover the creation of a cloud-based siumlation environment to test and evaluate simulated advanced persistent threats. This project utilizes the systems of Ansible and Caldera running in an OpenStack cloud environment.
 # Included Resources
