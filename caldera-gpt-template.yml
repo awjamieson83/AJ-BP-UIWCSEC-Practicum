@@ -1,0 +1,54 @@
+---
+- name: Install CALDERA on Ubuntu 22.04
+  hosts: caldera_hosts
+  become: true
+
+  vars:
+    caldera_version: "3.5.0"
+    caldera_install_dir: "/opt/caldera"
+
+  tasks:
+  - name: Install required packages
+    apt:
+      name: "{{ item }}"
+      state: present
+      update_cache: yes
+    loop:
+      - python3
+      - python3-dev
+      - python3-pip
+      - libssl-dev
+      - libffi-dev
+      - build-essential
+      - virtualenv
+      - git
+
+  - name: Create CALDERA virtual environment
+    command: virtualenv --python=python3 "{{ caldera_install_dir }}/venv"
+    args:
+      creates: "{{ caldera_install_dir }}/venv"
+
+  - name: Install CALDERA
+    pip:
+      name: git+https://github.com/mitre/caldera.git@{{ caldera_version }}
+      virtualenv: "{{ caldera_install_dir }}/venv"
+
+  - name: Generate CALDERA configuration file
+    template:
+      src: caldera_config.j2
+      dest: "{{ caldera_install_dir }}/caldera/conf/local.yml"
+      mode: '0600'
+    notify:
+      - Restart CALDERA
+
+  - name: Start CALDERA
+    systemd:
+      name: caldera
+      enabled: yes
+      state: started
+
+  handlers:
+  - name: Restart CALDERA
+    systemd:
+      name: caldera
+      state: restarted
